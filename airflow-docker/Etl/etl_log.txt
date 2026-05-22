@@ -1,0 +1,506 @@
+2025-06-03 12:29:16,412 - INFO - Starting ETL job
+2025-06-03 12:29:16,414 - INFO - Loaded 1000 rows into PostgreSQL
+2025-06-03 21:21:53,589 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:21:53,645 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:21:53,967 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:21:54,191 - ERROR - \u274c ETL job failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 21:21:54,192 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-03 21:23:59,443 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:23:59,452 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:23:59,454 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:23:59,638 - ERROR - \u274c ETL job failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 21:23:59,639 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-03 21:24:33,744 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:24:33,749 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:24:33,750 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:24:33,946 - ERROR - \u274c ETL job failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 21:24:33,947 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-03 21:25:19,123 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:25:19,143 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:25:19,144 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:25:19,318 - ERROR - \u274c ETL job failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 21:25:19,318 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-03 21:39:45,094 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:39:45,143 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:39:45,153 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:39:45,323 - ERROR - \u274c ETL job failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 21:39:45,323 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-03 21:45:06,119 - INFO - \U0001f680 Starting ETL job for products.csv
+2025-06-03 21:45:06,128 - INFO - \U0001f4e5 Loaded CSV with 4 rows and 3 columns
+2025-06-03 21:45:06,130 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-03 21:45:06,501 - INFO - \u2705 Loaded data into table 'products12' successfully
+2025-06-03 21:45:06,502 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:15:15,495 - INFO - \U0001f680 Starting ETL job for sales_2025-05-01.csv
+2025-06-04 20:15:15,572 - INFO - \U0001f4e5 Loaded CSV with 5 rows and 7 columns
+2025-06-04 20:15:15,579 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-04 20:15:15,996 - INFO - \u2705 Loaded data into table 'sales_1' successfully
+2025-06-04 20:15:15,997 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:15:45,873 - INFO - \U0001f680 Starting ETL job for sales_2025-05-02.csv
+2025-06-04 20:15:45,908 - INFO - \U0001f4e5 Loaded CSV with 5 rows and 7 columns
+2025-06-04 20:15:45,908 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-04 20:15:46,133 - INFO - \u2705 Loaded data into table 'sales_1' successfully
+2025-06-04 20:15:46,133 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:20:50,322 - INFO - \U0001f680 Starting ETL job for sales_2025-05-01.csv,sales_2025-05-02.csv
+2025-06-04 20:20:50,324 - ERROR - \u274c ETL job failed: CSV file not found: sales_2025-05-01.csv,sales_2025-05-02.csv
+2025-06-04 20:20:50,325 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:20:51,547 - INFO - \U0001f680 Starting ETL job for sales_2025-05-01.csv,sales_2025-05-02.csv
+2025-06-04 20:20:51,547 - ERROR - \u274c ETL job failed: CSV file not found: sales_2025-05-01.csv,sales_2025-05-02.csv
+2025-06-04 20:20:51,547 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:30:41,136 - INFO - \U0001f680 Starting ETL job for files: ['sales_2025-05-01.csv', 'sales_2025-05-02.csv']
+2025-06-04 20:30:41,185 - INFO - \U0001f4e5 Loaded sales_2025-05-01.csv with 5 rows
+2025-06-04 20:30:41,188 - INFO - \U0001f4e5 Loaded sales_2025-05-02.csv with 5 rows
+2025-06-04 20:30:41,216 - INFO - \U0001f9fe Total combined rows: 10
+2025-06-04 20:30:41,230 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-04 20:30:41,734 - INFO - \u2705 Loaded all data into table 'sales_1' successfully
+2025-06-04 20:30:41,735 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-04 20:33:08,227 - INFO - \U0001f680 Starting ETL job for files: ['stores.csv']
+2025-06-04 20:33:08,266 - INFO - \U0001f4e5 Loaded stores.csv with 3 rows
+2025-06-04 20:33:08,268 - INFO - \U0001f9fe Total combined rows: 3
+2025-06-04 20:33:08,269 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-04 20:33:08,539 - INFO - \u2705 Loaded all data into table 'stores1' successfully
+2025-06-04 20:33:08,539 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-05 14:49:00,461 - INFO - \U0001f680 Starting ETL job for files: ['studet_records_100.csv']
+2025-06-05 14:49:00,483 - ERROR - \u274c ETL job failed: CSV file not found: studet_records_100.csv
+2025-06-05 14:49:00,483 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-05 14:49:31,688 - INFO - \U0001f680 Starting ETL job for files: ['student_records_100.csv']
+2025-06-05 14:49:31,881 - INFO - \U0001f4e5 Loaded student_records_100.csv with 100 rows
+2025-06-05 14:49:31,903 - INFO - \U0001f9fe Total combined rows: 100
+2025-06-05 14:49:31,959 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-05 14:49:32,389 - INFO - \u2705 Loaded all data into table 'Studets_Record' successfully
+2025-06-05 14:49:32,390 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-05 21:41:10,479 - INFO - \U0001f680 Starting ETL job for files: ['student_records_100.csv']
+2025-06-05 21:41:10,513 - INFO - \U0001f4e5 Loaded student_records_100.csv with 100 rows
+2025-06-05 21:41:10,518 - INFO - \U0001f9fe Total combined rows: 100
+2025-06-05 21:41:10,544 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-05 21:41:11,058 - INFO - \u2705 Loaded all data into table 'Studets_Record' successfully
+2025-06-05 21:41:11,059 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-05 21:41:39,713 - INFO - \U0001f680 Starting ETL job for files: ['student_records_100.csv']
+2025-06-05 21:41:39,721 - INFO - \U0001f4e5 Loaded student_records_100.csv with 100 rows
+2025-06-05 21:41:39,721 - INFO - \U0001f9fe Total combined rows: 100
+2025-06-05 21:41:39,722 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-05 21:41:39,949 - INFO - \u2705 Loaded all data into table 'Studets_Record' successfully
+2025-06-05 21:41:39,950 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-05 23:14:18,393 - INFO - \u2705 CSV loaded
+2025-06-05 23:14:18,434 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:14:21,687 - INFO - \u2705 CSV loaded
+2025-06-05 23:14:21,690 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:17:05,029 - INFO - \u2705 CSV loaded
+2025-06-05 23:17:05,035 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:17:08,926 - INFO - \u2705 CSV loaded
+2025-06-05 23:17:08,932 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:17:45,289 - INFO - \u2705 CSV loaded
+2025-06-05 23:17:45,297 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:19:05,676 - INFO - \u2705 CSV loaded
+2025-06-05 23:19:05,681 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:20:14,644 - INFO - \u2705 CSV loaded
+2025-06-05 23:20:14,649 - ERROR - \u274c ETL job failed: "Only a column name can be used for the key in a dtype mappings argument. 'product_id' not found in columns."
+2025-06-05 23:25:09,001 - INFO - \u2705 CSV loaded
+2025-06-05 23:25:09,004 - WARNING - \u26a0\ufe0f Column 'Last Name' has wrong type: object, expected: float64
+2025-06-05 23:25:09,004 - WARNING - \u26a0\ufe0f Column 'Age' has wrong type: int64, expected: object
+2025-06-05 23:25:09,024 - ERROR - \u274c ETL job failed: could not convert string to float: 'Cruz': Error while type casting for column 'Last Name'
+2025-06-05 23:39:20,738 - INFO - \u2705 CSV loaded
+2025-06-05 23:39:20,741 - WARNING - \u26a0\ufe0f Column 'Last Name' has wrong type: object, expected: float64
+2025-06-05 23:39:20,741 - WARNING - \u26a0\ufe0f Column 'Age' has wrong type: int64, expected: object
+2025-06-05 23:39:20,744 - ERROR - \u274c ETL job failed: could not convert string to float: 'Cruz': Error while type casting for column 'Last Name'
+2025-06-05 23:40:31,054 - INFO - \u2705 CSV loaded
+2025-06-05 23:40:31,057 - WARNING - \u26a0\ufe0f Column 'Last Name' has wrong type: object, expected: float64
+2025-06-05 23:40:31,057 - WARNING - \u26a0\ufe0f Column 'Age' has wrong type: int64, expected: object
+2025-06-05 23:40:31,061 - ERROR - \u274c ETL job failed: could not convert string to float: 'Cruz': Error while type casting for column 'Last Name'
+2025-06-05 23:41:06,888 - INFO - \u2705 CSV loaded
+2025-06-05 23:41:07,482 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-05 23:41:07,488 - ERROR - \u274c ETL job failed: 'Engine' object has no attribute 'execute'
+2025-06-06 01:00:54,003 - INFO - \u2705 CSV loaded
+2025-06-06 01:00:54,595 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:00:54,602 - ERROR - \u274c ETL job failed: Not an executable object: 'SELECT COUNT(*) FROM Studets_Record'
+2025-06-06 01:01:46,259 - INFO - \u2705 CSV loaded
+2025-06-06 01:01:46,583 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:01:46,586 - ERROR - \u274c ETL job failed: Not an executable object: 'SELECT COUNT(*) FROM Studets_Record'
+2025-06-06 01:05:00,770 - INFO - \u2705 CSV loaded
+2025-06-06 01:05:01,099 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:05:01,119 - ERROR - \u274c ETL job failed: (psycopg2.errors.UndefinedTable) relation "studets_record" does not exist
+LINE 1: SELECT COUNT(*) FROM Studets_Record
+                             ^
+
+[SQL: SELECT COUNT(*) FROM Studets_Record]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-06 01:05:25,987 - INFO - \u2705 CSV loaded
+2025-06-06 01:05:27,005 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:05:27,007 - ERROR - \u274c ETL job failed: (psycopg2.errors.UndefinedTable) relation "studets_record" does not exist
+LINE 1: SELECT COUNT(*) FROM Studets_Record
+                             ^
+
+[SQL: SELECT COUNT(*) FROM Studets_Record]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-06 01:07:20,700 - INFO - \u2705 CSV loaded
+2025-06-06 01:07:21,056 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:07:21,059 - ERROR - \u274c ETL job failed: (psycopg2.errors.UndefinedTable) relation "studets_record" does not exist
+LINE 1: SELECT COUNT(*) FROM Studets_Record
+                             ^
+
+[SQL: SELECT COUNT(*) FROM Studets_Record]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-06 01:09:47,010 - INFO - \u2705 CSV loaded
+2025-06-06 01:09:47,237 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:09:47,243 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-06 01:36:05,676 - INFO - \u2705 CSV loaded
+2025-06-06 01:36:05,834 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:36:05,836 - WARNING - \u26a0\ufe0f Row count mismatch: DataFrame=100, PostgreSQL=200
+2025-06-06 01:37:07,083 - INFO - \u2705 CSV loaded
+2025-06-06 01:37:07,276 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 01:37:07,276 - WARNING - \u26a0\ufe0f Row count mismatch: DataFrame=100, PostgreSQL=300
+2025-06-06 01:48:31,163 - ERROR - \u274c ETL job failed: Invalid file path or buffer object type: <class 'list'>
+2025-06-06 02:12:18,810 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-06 02:12:18,817 - INFO - \u2705 Concatenated total rows: 100
+2025-06-06 02:12:19,001 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 02:12:19,004 - WARNING - \u26a0\ufe0f Row count mismatch: DataFrame=100, PostgreSQL=400
+2025-06-06 02:15:31,869 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-06 02:15:31,870 - INFO - \u2705 Concatenated total rows: 100
+2025-06-06 02:15:31,874 - WARNING - \u26a0\ufe0f Column 'Age' has wrong type: int64, expected: object
+2025-06-06 02:15:32,117 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-06 02:15:32,119 - WARNING - \u26a0\ufe0f Row count mismatch: DataFrame=100, PostgreSQL=500
+2025-06-07 19:01:52,776 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-07 19:01:52,784 - INFO - \u2705 Concatenated total rows: 100
+2025-06-07 19:01:52,834 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-07 19:01:53,133 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-07 19:01:53,329 - WARNING - \u26a0\ufe0f Audit log failed: (psycopg2.errors.UndefinedTable) relation "audit_log" does not exist
+LINE 2:                 INSERT INTO audit_log (username, action, tab...
+                                    ^
+
+[SQL: 
+                INSERT INTO audit_log (username, action, table_name, details)
+                VALUES (%(username)s, %(action)s, %(table_name)s, %(details)s)
+            ]
+[parameters: {'username': 'admin', 'action': 'INSERT', 'table_name': 'studets_record', 'details': 'Loaded 100 rows from CSV'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-07 19:01:53,337 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-07 19:13:50,031 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-07 19:13:50,033 - INFO - \u2705 Concatenated total rows: 100
+2025-06-07 19:13:50,041 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-07 19:13:50,216 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-07 19:13:50,363 - WARNING - \u26a0\ufe0f Audit log failed: (psycopg2.errors.UndefinedTable) relation "audit_log" does not exist
+LINE 2:                 INSERT INTO audit_log (username, action, tab...
+                                    ^
+
+[SQL: 
+                INSERT INTO audit_log (username, action, table_name, details)
+                VALUES (%(username)s, %(action)s, %(table_name)s, %(details)s)
+            ]
+[parameters: {'username': 'admin', 'action': 'INSERT', 'table_name': 'studets_record', 'details': 'Loaded 100 rows from CSV'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-07 19:13:50,374 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-07 19:14:02,250 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-07 19:14:02,251 - INFO - \u2705 Concatenated total rows: 100
+2025-06-07 19:14:02,258 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-07 19:14:02,869 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-07 19:14:03,290 - WARNING - \u26a0\ufe0f Audit log failed: (psycopg2.errors.UndefinedTable) relation "audit_log" does not exist
+LINE 2:                 INSERT INTO audit_log (username, action, tab...
+                                    ^
+
+[SQL: 
+                INSERT INTO audit_log (username, action, table_name, details)
+                VALUES (%(username)s, %(action)s, %(table_name)s, %(details)s)
+            ]
+[parameters: {'username': 'admin', 'action': 'INSERT', 'table_name': 'studets_record', 'details': 'Loaded 100 rows from CSV'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-07 19:14:03,309 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-07 19:14:18,113 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-07 19:14:18,113 - INFO - \u2705 Concatenated total rows: 100
+2025-06-07 19:14:18,117 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-07 19:14:18,379 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-07 19:14:18,558 - WARNING - \u26a0\ufe0f Audit log failed: (psycopg2.errors.UndefinedTable) relation "audit_log" does not exist
+LINE 2:                 INSERT INTO audit_log (username, action, tab...
+                                    ^
+
+[SQL: 
+                INSERT INTO audit_log (username, action, table_name, details)
+                VALUES (%(username)s, %(action)s, %(table_name)s, %(details)s)
+            ]
+[parameters: {'username': 'admin', 'action': 'INSERT', 'table_name': 'studets_record', 'details': 'Loaded 100 rows from CSV'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-07 19:14:18,571 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 09:02:32,130 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 09:02:32,140 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 09:02:32,189 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-08 09:02:32,564 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 09:02:32,703 - WARNING - \u26a0\ufe0f Audit log failed: (psycopg2.errors.UndefinedTable) relation "audit_log" does not exist
+LINE 2:                 INSERT INTO audit_log (username, action, tab...
+                                    ^
+
+[SQL: 
+                INSERT INTO audit_log (username, action, table_name, details)
+                VALUES (%(username)s, %(action)s, %(table_name)s, %(details)s)
+            ]
+[parameters: {'username': 'admin', 'action': 'INSERT', 'table_name': 'studets_record', 'details': 'Loaded 100 rows from CSV'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-08 09:02:32,715 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 09:06:22,090 - INFO - \U0001f680 Starting ETL job for files: ['student_records_100.csv']
+2025-06-08 09:06:22,162 - INFO - \U0001f4e5 Loaded student_records_100.csv with 100 rows
+2025-06-08 09:06:22,173 - INFO - \U0001f9fe Total combined rows: 100
+2025-06-08 09:06:22,182 - INFO - \U0001f517 Connected to PostgreSQL
+2025-06-08 09:06:22,695 - INFO - \u2705 Loaded all data into table 'Studets_Record' successfully
+2025-06-08 09:06:22,696 - INFO - \U0001f3c1 ETL job finished
+
+2025-06-08 09:38:51,075 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 09:38:51,078 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 09:38:51,109 - WARNING - \u26a0\ufe0f Could not convert 'Grade Level' to int64: invalid literal for int() with base 10: ' '
+2025-06-08 09:38:51,146 - INFO - \u2705 Cleaned and converted 'Grade Level' after coercion
+2025-06-08 09:38:51,310 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " "
+LINE 1: ...'13', 'Male', 97), (1041, 'Leo', 'Gomez', 8, 'C', ' ', 'Fema...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14448 characters truncated ... _Name__98)s, %(Grade_Level__98)s, %(Section__98)s, %(Age__98)s, %(Gender__98)s, %(Final_Grade__98)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Cruz', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': -92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': '14', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': 90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 692 parameters truncated ... 'Last_Name__92': 'Ocampo', 'Student_ID__92': 1094, 'First_Name__93': 'Tina', 'Section__93': 'C', 'Age__93': '13', 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 88, 'Last_Name__93': 'Yu', 'Student_ID__93': 1095, 'First_Name__94': 'Jade', 'Section__94': 'C', 'Age__94': '14', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 87, 'Last_Name__94': 'Ocampo', 'Student_ID__94': 1096, 'First_Name__95': 'Tina', 'Section__95': 'C', 'Age__95': '13', 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 99, 'Last_Name__95': 'Ng', 'Student_ID__95': 1097, 'First_Name__96': 'Ivan', 'Section__96': 'A', 'Age__96': '14', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 92, 'Last_Name__96': 'Ocampo', 'Student_ID__96': 1098, 'First_Name__97': 'Tina', 'Section__97': 'B', 'Age__97': '13', 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 96, 'Last_Name__97': 'Martinez', 'Student_ID__97': 1099, 'First_Name__98': 'Kyle', 'Section__98': 'C', 'Age__98': '14', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 94, 'Last_Name__98': 'Fernandez', 'Student_ID__98': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 09:47:40,928 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 09:47:40,932 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 09:47:40,952 - WARNING - \u26a0\ufe0f Could not convert 'Grade Level' to int64: invalid literal for int() with base 10: ' '
+2025-06-08 09:47:40,963 - INFO - \u2705 Cleaned and converted 'Grade Level' after coercion
+2025-06-08 09:47:41,119 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " "
+LINE 1: ...'13', 'Male', 97), (1041, 'Leo', 'Gomez', 8, 'C', ' ', 'Fema...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14448 characters truncated ... _Name__98)s, %(Grade_Level__98)s, %(Section__98)s, %(Age__98)s, %(Gender__98)s, %(Final_Grade__98)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Cruz', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': -92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': '14', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': 90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 692 parameters truncated ... 'Last_Name__92': 'Ocampo', 'Student_ID__92': 1094, 'First_Name__93': 'Tina', 'Section__93': 'C', 'Age__93': '13', 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 88, 'Last_Name__93': 'Yu', 'Student_ID__93': 1095, 'First_Name__94': 'Jade', 'Section__94': 'C', 'Age__94': '14', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 87, 'Last_Name__94': 'Ocampo', 'Student_ID__94': 1096, 'First_Name__95': 'Tina', 'Section__95': 'C', 'Age__95': '13', 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 99, 'Last_Name__95': 'Ng', 'Student_ID__95': 1097, 'First_Name__96': 'Ivan', 'Section__96': 'A', 'Age__96': '14', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 92, 'Last_Name__96': 'Ocampo', 'Student_ID__96': 1098, 'First_Name__97': 'Tina', 'Section__97': 'B', 'Age__97': '13', 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 96, 'Last_Name__97': 'Martinez', 'Student_ID__97': 1099, 'First_Name__98': 'Kyle', 'Section__98': 'C', 'Age__98': '14', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 94, 'Last_Name__98': 'Fernandez', 'Student_ID__98': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 10:20:44,263 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 10:20:44,267 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 10:20:44,283 - WARNING - \u26a0\ufe0f Could not convert 'Grade Level' to int64: invalid literal for int() with base 10: ' '
+2025-06-08 10:20:44,290 - INFO - \u2705 Cleaned and converted 'Grade Level' after coercion
+2025-06-08 10:20:44,615 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " "
+LINE 1: ...'13', 'Male', 97), (1041, 'Leo', 'Gomez', 8, 'C', ' ', 'Fema...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14448 characters truncated ... _Name__98)s, %(Grade_Level__98)s, %(Section__98)s, %(Age__98)s, %(Gender__98)s, %(Final_Grade__98)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Cruz', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': -92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': '14', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': 90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 692 parameters truncated ... 'Last_Name__92': 'Ocampo', 'Student_ID__92': 1094, 'First_Name__93': 'Tina', 'Section__93': 'C', 'Age__93': '13', 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 88, 'Last_Name__93': 'Yu', 'Student_ID__93': 1095, 'First_Name__94': 'Jade', 'Section__94': 'C', 'Age__94': '14', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 87, 'Last_Name__94': 'Ocampo', 'Student_ID__94': 1096, 'First_Name__95': 'Tina', 'Section__95': 'C', 'Age__95': '13', 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 99, 'Last_Name__95': 'Ng', 'Student_ID__95': 1097, 'First_Name__96': 'Ivan', 'Section__96': 'A', 'Age__96': '14', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 92, 'Last_Name__96': 'Ocampo', 'Student_ID__96': 1098, 'First_Name__97': 'Tina', 'Section__97': 'B', 'Age__97': '13', 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 96, 'Last_Name__97': 'Martinez', 'Student_ID__97': 1099, 'First_Name__98': 'Kyle', 'Section__98': 'C', 'Age__98': '14', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 94, 'Last_Name__98': 'Fernandez', 'Student_ID__98': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 10:21:45,168 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 10:21:45,169 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 10:21:45,174 - WARNING - \u26a0\ufe0f Could not convert 'Grade Level' to int64: invalid literal for int() with base 10: ' '
+2025-06-08 10:21:45,177 - INFO - \u2705 Cleaned and converted 'Grade Level' after coercion
+2025-06-08 10:21:45,298 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " "
+LINE 1: ...'13', 'Male', 97), (1041, 'Leo', 'Gomez', 8, 'C', ' ', 'Fema...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14448 characters truncated ... _Name__98)s, %(Grade_Level__98)s, %(Section__98)s, %(Age__98)s, %(Gender__98)s, %(Final_Grade__98)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Cruz', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': -92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': '14', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': 90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 692 parameters truncated ... 'Last_Name__92': 'Ocampo', 'Student_ID__92': 1094, 'First_Name__93': 'Tina', 'Section__93': 'C', 'Age__93': '13', 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 88, 'Last_Name__93': 'Yu', 'Student_ID__93': 1095, 'First_Name__94': 'Jade', 'Section__94': 'C', 'Age__94': '14', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 87, 'Last_Name__94': 'Ocampo', 'Student_ID__94': 1096, 'First_Name__95': 'Tina', 'Section__95': 'C', 'Age__95': '13', 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 99, 'Last_Name__95': 'Ng', 'Student_ID__95': 1097, 'First_Name__96': 'Ivan', 'Section__96': 'A', 'Age__96': '14', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 92, 'Last_Name__96': 'Ocampo', 'Student_ID__96': 1098, 'First_Name__97': 'Tina', 'Section__97': 'B', 'Age__97': '13', 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 96, 'Last_Name__97': 'Martinez', 'Student_ID__97': 1099, 'First_Name__98': 'Kyle', 'Section__98': 'C', 'Age__98': '14', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 94, 'Last_Name__98': 'Fernandez', 'Student_ID__98': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 10:29:41,220 - INFO - \u2705 Loaded student_records_100.csv with 100 rows
+2025-06-08 10:29:41,223 - INFO - \u2705 Concatenated total rows: 100
+2025-06-08 10:29:41,233 - INFO - \u2139\ufe0f Converted 'Age' from int64 to object
+2025-06-08 10:29:41,649 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "Student_Grade Level_key"
+DETAIL:  Key ("Grade Level")=(8) already exists.
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14597 characters truncated ... _Name__99)s, %(Grade_Level__99)s, %(Section__99)s, %(Age__99)s, %(Gender__99)s, %(Final_Grade__99)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': 13, 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Cruz', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': 14, 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': 92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': 13, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': 14, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': 90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': 13, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': 14, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 700 parameters truncated ... 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1094, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13, 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 88, 'Last_Name__94': 'Yu', 'Student_ID__94': 1095, 'First_Name__95': 'Jade', 'Section__95': 'C', 'Age__95': 14, 'Grade_Level__95': 8, 'Gender__95': 'Female', 'Final_Grade__95': 87, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1096, 'First_Name__96': 'Tina', 'Section__96': 'C', 'Age__96': 13, 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 99, 'Last_Name__96': 'Ng', 'Student_ID__96': 1097, 'First_Name__97': 'Ivan', 'Section__97': 'A', 'Age__97': 14, 'Grade_Level__97': 8, 'Gender__97': 'Male', 'Final_Grade__97': 92, 'Last_Name__97': 'Ocampo', 'Student_ID__97': 1098, 'First_Name__98': 'Tina', 'Section__98': 'B', 'Age__98': 13, 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 96, 'Last_Name__98': 'Martinez', 'Student_ID__98': 1099, 'First_Name__99': 'Kyle', 'Section__99': 'C', 'Age__99': 14, 'Grade_Level__99': 8, 'Gender__99': 'Female', 'Final_Grade__99': 94, 'Last_Name__99': 'Fernandez', 'Student_ID__99': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 13:55:34,035 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 13:55:34,038 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 13:55:34,046 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 13:55:34,234 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Male"
+LINE 1: ...rade") VALUES (1001, 'John', 'Nan', 8, 'A', '13', 'Male', 89...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14597 characters truncated ... _Name__99)s, %(Grade_Level__99)s, %(Section__99)s, %(Age__99)s, %(Gender__99)s, %(Final_Grade__99)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Nan', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': 92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': 'Nan', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': -95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 700 parameters truncated ... 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1094, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': '13', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 88, 'Last_Name__94': 'Yu', 'Student_ID__94': 1095, 'First_Name__95': 'Jade', 'Section__95': 'C', 'Age__95': '14', 'Grade_Level__95': 8, 'Gender__95': 'Female', 'Final_Grade__95': 87, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1096, 'First_Name__96': 'Tina', 'Section__96': 'C', 'Age__96': '13', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 99, 'Last_Name__96': 'Ng', 'Student_ID__96': 1097, 'First_Name__97': 'Ivan', 'Section__97': 'A', 'Age__97': '14', 'Grade_Level__97': 8, 'Gender__97': 'Male', 'Final_Grade__97': 92, 'Last_Name__97': 'Ocampo', 'Student_ID__97': 1098, 'First_Name__98': 'Tina', 'Section__98': 'B', 'Age__98': '13', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 96, 'Last_Name__98': 'Martinez', 'Student_ID__98': 1099, 'First_Name__99': 'Kyle', 'Section__99': 'C', 'Age__99': '14', 'Grade_Level__99': 8, 'Gender__99': 'Female', 'Final_Grade__99': 94, 'Last_Name__99': 'Fernandez', 'Student_ID__99': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 13:57:36,432 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 13:57:36,432 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 13:57:36,434 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 13:57:36,548 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Male"
+LINE 1: ...rade") VALUES (1001, 'John', 'Nan', 8, 'A', '13', 'Male', 89...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14597 characters truncated ... _Name__99)s, %(Grade_Level__99)s, %(Section__99)s, %(Age__99)s, %(Gender__99)s, %(Final_Grade__99)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Nan', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': 92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': 'Nan', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': -95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 700 parameters truncated ... 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1094, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': '13', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 88, 'Last_Name__94': 'Yu', 'Student_ID__94': 1095, 'First_Name__95': 'Jade', 'Section__95': 'C', 'Age__95': '14', 'Grade_Level__95': 8, 'Gender__95': 'Female', 'Final_Grade__95': 87, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1096, 'First_Name__96': 'Tina', 'Section__96': 'C', 'Age__96': '13', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 99, 'Last_Name__96': 'Ng', 'Student_ID__96': 1097, 'First_Name__97': 'Ivan', 'Section__97': 'A', 'Age__97': '14', 'Grade_Level__97': 8, 'Gender__97': 'Male', 'Final_Grade__97': 92, 'Last_Name__97': 'Ocampo', 'Student_ID__97': 1098, 'First_Name__98': 'Tina', 'Section__98': 'B', 'Age__98': '13', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 96, 'Last_Name__98': 'Martinez', 'Student_ID__98': 1099, 'First_Name__99': 'Kyle', 'Section__99': 'C', 'Age__99': '14', 'Grade_Level__99': 8, 'Gender__99': 'Female', 'Final_Grade__99': 94, 'Last_Name__99': 'Fernandez', 'Student_ID__99': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 13:59:24,674 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 13:59:24,675 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 13:59:24,677 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 13:59:24,926 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Male"
+LINE 1: ...rade") VALUES (1001, 'John', 'Nan', 8, 'A', '13', 'Male', 89...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14597 characters truncated ... _Name__99)s, %(Grade_Level__99)s, %(Section__99)s, %(Age__99)s, %(Gender__99)s, %(Final_Grade__99)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Nan', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': 92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': 'Nan', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': -95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 700 parameters truncated ... 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1094, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': '13', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 88, 'Last_Name__94': 'Yu', 'Student_ID__94': 1095, 'First_Name__95': 'Jade', 'Section__95': 'C', 'Age__95': '14', 'Grade_Level__95': 8, 'Gender__95': 'Female', 'Final_Grade__95': 87, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1096, 'First_Name__96': 'Tina', 'Section__96': 'C', 'Age__96': '13', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 99, 'Last_Name__96': 'Ng', 'Student_ID__96': 1097, 'First_Name__97': 'Ivan', 'Section__97': 'A', 'Age__97': '14', 'Grade_Level__97': 8, 'Gender__97': 'Male', 'Final_Grade__97': 92, 'Last_Name__97': 'Ocampo', 'Student_ID__97': 1098, 'First_Name__98': 'Tina', 'Section__98': 'B', 'Age__98': '13', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 96, 'Last_Name__98': 'Martinez', 'Student_ID__98': 1099, 'First_Name__99': 'Kyle', 'Section__99': 'C', 'Age__99': '14', 'Grade_Level__99': 8, 'Gender__99': 'Female', 'Final_Grade__99': 94, 'Last_Name__99': 'Fernandez', 'Student_ID__99': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 14:04:49,539 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 14:04:49,541 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 14:04:49,558 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 14:04:49,730 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Male"
+LINE 1: ...rade") VALUES (1001, 'John', 'Nan', 8, 'A', '13', 'Male', 89...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14597 characters truncated ... _Name__99)s, %(Grade_Level__99)s, %(Section__99)s, %(Age__99)s, %(Gender__99)s, %(Final_Grade__99)s)]
+[parameters: {'First_Name__0': 'John', 'Section__0': 'A', 'Age__0': '13', 'Grade_Level__0': 8, 'Gender__0': 'Male', 'Final_Grade__0': 89, 'Last_Name__0': 'Nan', 'Student_ID__0': 1001, 'First_Name__1': 'Anna', 'Section__1': 'B', 'Age__1': '14', 'Grade_Level__1': 8, 'Gender__1': 'Female', 'Final_Grade__1': 92, 'Last_Name__1': 'Reyes', 'Student_ID__1': 1002, 'First_Name__2': 'Mark', 'Section__2': 'A', 'Age__2': '13', 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 85, 'Last_Name__2': 'Santos', 'Student_ID__2': 1003, 'First_Name__3': 'Grace', 'Section__3': 'C', 'Age__3': 'Nan', 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -90, 'Last_Name__3': 'Lim', 'Student_ID__3': 1004, 'First_Name__4': 'Carl', 'Section__4': 'B', 'Age__4': '13', 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 88, 'Last_Name__4': 'Dizon', 'Student_ID__4': 1005, 'First_Name__5': 'Lea', 'Section__5': 'A', 'Age__5': '14', 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': -95, 'Last_Name__5': 'Garcia', 'Student_ID__5': 1006, 'First_Name__6': 'Paul', 'Section__6': 'C' ... 700 parameters truncated ... 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1094, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': '13', 'Grade_Level__94': 8, 'Gender__94': 'Female', 'Final_Grade__94': 88, 'Last_Name__94': 'Yu', 'Student_ID__94': 1095, 'First_Name__95': 'Jade', 'Section__95': 'C', 'Age__95': '14', 'Grade_Level__95': 8, 'Gender__95': 'Female', 'Final_Grade__95': 87, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1096, 'First_Name__96': 'Tina', 'Section__96': 'C', 'Age__96': '13', 'Grade_Level__96': 8, 'Gender__96': 'Male', 'Final_Grade__96': 99, 'Last_Name__96': 'Ng', 'Student_ID__96': 1097, 'First_Name__97': 'Ivan', 'Section__97': 'A', 'Age__97': '14', 'Grade_Level__97': 8, 'Gender__97': 'Male', 'Final_Grade__97': 92, 'Last_Name__97': 'Ocampo', 'Student_ID__97': 1098, 'First_Name__98': 'Tina', 'Section__98': 'B', 'Age__98': '13', 'Grade_Level__98': 8, 'Gender__98': 'Female', 'Final_Grade__98': 96, 'Last_Name__98': 'Martinez', 'Student_ID__98': 1099, 'First_Name__99': 'Kyle', 'Section__99': 'C', 'Age__99': '14', 'Grade_Level__99': 8, 'Gender__99': 'Female', 'Final_Grade__99': 94, 'Last_Name__99': 'Fernandez', 'Student_ID__99': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 14:05:14,617 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 14:05:14,640 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 14:05:14,641 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 14:05:14,647 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 14:05:14,659 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 14:05:14,790 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Female"
+LINE 1: ...de") VALUES (1002, 'Anna', 'Reyes', 8, 'B', 14.0, 'Female', ...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14299 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 14:12:29,604 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 14:12:29,607 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 14:12:29,610 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 14:12:29,614 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 14:12:29,622 - WARNING - \u26a0\ufe0f Could not convert 'Age' to int64: Cannot convert non-finite values (NA or inf) to integer
+2025-06-08 14:12:29,645 - INFO - \u2705 Cleaned and converted 'Age' after coercion
+2025-06-08 14:12:29,910 - ERROR - \u274c Database error occurred: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "Female"
+LINE 1: ...rade") VALUES (1002, 'Anna', 'Reyes', 8, 'B', 14, 'Female', ...
+                                                             ^
+
+[SQL: INSERT INTO "Student" ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gender__0)s, % ... 14299 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-08 14:37:49,003 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 14:37:49,011 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 14:37:49,024 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 14:37:49,048 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 14:37:49,050 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 14:37:49,471 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 14:37:49,682 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 15:10:52,037 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 15:10:52,041 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 15:10:52,048 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 15:10:52,054 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 15:10:52,063 - WARNING - \u26a0\ufe0f Could not convert 'Age' to int: Cannot convert non-finite values (NA or inf) to integer
+2025-06-08 15:10:52,077 - INFO - \u2705 Cleaned and converted 'Age' after coercion
+2025-06-08 15:10:52,506 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 15:11:27,146 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 15:11:27,146 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 15:11:27,149 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 15:11:27,154 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 15:11:27,157 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 15:11:27,449 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 15:55:05,105 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 15:55:05,111 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 15:55:05,115 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 15:55:05,121 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 15:55:05,125 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 15:55:05,483 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 16:00:26,873 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:00:26,880 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:00:26,890 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:00:26,906 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:00:26,914 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:00:27,265 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 16:00:27,552 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 16:00:37,854 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:00:37,854 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:00:37,856 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:00:37,857 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:00:37,858 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:00:38,010 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 16:19:07,303 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:19:07,309 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:19:07,313 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:19:07,316 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:19:07,319 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:19:07,517 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 16:19:07,713 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 16:19:12,712 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:19:12,713 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:19:12,715 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:19:12,717 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:19:12,719 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:19:12,865 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 16:34:22,100 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:34:22,109 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:34:22,120 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:34:22,140 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:34:22,147 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:34:22,418 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 16:34:22,619 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-08 16:40:47,733 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 16:40:47,736 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 16:40:47,738 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 16:40:47,741 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 16:40:47,743 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 16:40:47,940 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 23:53:06,179 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 23:53:06,191 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 23:53:06,209 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 23:53:06,268 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 23:53:06,276 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 23:53:06,761 - ERROR - \u274c Database error occurred: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "students_record_new_Student ID_key"
+DETAIL:  Key ("Student ID")=(1002) already exists.
+
+[SQL: INSERT INTO students_record_new ("Student ID", "First Name", "Last Name", "Grade Level", "Section", "Age", "Gender", "Final Grade") VALUES (%(Student_ID__0)s, %(First_Name__0)s, %(Last_Name__0)s, %(Grade_Level__0)s, %(Section__0)s, %(Age__0)s, %(Gend ... 14309 characters truncated ... _Name__97)s, %(Grade_Level__97)s, %(Section__97)s, %(Age__97)s, %(Gender__97)s, %(Final_Grade__97)s)]
+[parameters: {'First_Name__0': 'Anna', 'Section__0': 'B', 'Age__0': 14.0, 'Grade_Level__0': 8, 'Gender__0': 'Female', 'Final_Grade__0': 92, 'Last_Name__0': 'Reyes', 'Student_ID__0': 1002, 'First_Name__1': 'Mark', 'Section__1': 'A', 'Age__1': 13.0, 'Grade_Level__1': 8, 'Gender__1': 'Male', 'Final_Grade__1': 85, 'Last_Name__1': 'Santos', 'Student_ID__1': 1003, 'First_Name__2': 'Carl', 'Section__2': 'B', 'Age__2': 13.0, 'Grade_Level__2': 8, 'Gender__2': 'Male', 'Final_Grade__2': 88, 'Last_Name__2': 'Dizon', 'Student_ID__2': 1005, 'First_Name__3': 'Lea', 'Section__3': 'A', 'Age__3': 14.0, 'Grade_Level__3': 8, 'Gender__3': 'Female', 'Final_Grade__3': -95, 'Last_Name__3': 'Garcia', 'Student_ID__3': 1006, 'First_Name__4': 'Paul', 'Section__4': 'C', 'Age__4': 13.0, 'Grade_Level__4': 8, 'Gender__4': 'Male', 'Final_Grade__4': 78, 'Last_Name__4': 'Ramos', 'Student_ID__4': 1007, 'First_Name__5': 'Mia', 'Section__5': 'B', 'Age__5': 14.0, 'Grade_Level__5': 8, 'Gender__5': 'Female', 'Final_Grade__5': 84, 'Last_Name__5': 'Tan', 'Student_ID__5': 1008, 'First_Name__6': 'Ethan', 'Section__6': 'C' ... 684 parameters truncated ... 'Last_Name__91': 'Ocampo', 'Student_ID__91': 1094, 'First_Name__92': 'Tina', 'Section__92': 'C', 'Age__92': 13.0, 'Grade_Level__92': 8, 'Gender__92': 'Female', 'Final_Grade__92': 88, 'Last_Name__92': 'Yu', 'Student_ID__92': 1095, 'First_Name__93': 'Jade', 'Section__93': 'C', 'Age__93': 14.0, 'Grade_Level__93': 8, 'Gender__93': 'Female', 'Final_Grade__93': 87, 'Last_Name__93': 'Ocampo', 'Student_ID__93': 1096, 'First_Name__94': 'Tina', 'Section__94': 'C', 'Age__94': 13.0, 'Grade_Level__94': 8, 'Gender__94': 'Male', 'Final_Grade__94': 99, 'Last_Name__94': 'Ng', 'Student_ID__94': 1097, 'First_Name__95': 'Ivan', 'Section__95': 'A', 'Age__95': 14.0, 'Grade_Level__95': 8, 'Gender__95': 'Male', 'Final_Grade__95': 92, 'Last_Name__95': 'Ocampo', 'Student_ID__95': 1098, 'First_Name__96': 'Tina', 'Section__96': 'B', 'Age__96': 13.0, 'Grade_Level__96': 8, 'Gender__96': 'Female', 'Final_Grade__96': 96, 'Last_Name__96': 'Martinez', 'Student_ID__96': 1099, 'First_Name__97': 'Kyle', 'Section__97': 'C', 'Age__97': 14.0, 'Grade_Level__97': 8, 'Gender__97': 'Female', 'Final_Grade__97': 94, 'Last_Name__97': 'Fernandez', 'Student_ID__97': 1100}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-08 23:54:06,368 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-08 23:54:06,368 - INFO - \u2705 Concatenated total rows: 101
+2025-06-08 23:54:06,369 - WARNING - \u26a0\ufe0f Null values found
+2025-06-08 23:54:06,372 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-08 23:54:06,373 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-08 23:54:06,563 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-08 23:54:06,699 - INFO - \u2705 Row count matches in PostgreSQL
+2025-06-09 07:45:19,305 - INFO - \u2705 Loaded student_records_100.csv with 101 rows
+2025-06-09 07:45:19,326 - INFO - \u2705 Concatenated total rows: 101
+2025-06-09 07:45:19,339 - WARNING - \u26a0\ufe0f Null values found
+2025-06-09 07:45:19,363 - WARNING - \u26a0\ufe0f Duplicate rows found
+2025-06-09 07:45:19,370 - INFO - \u2139\ufe0f Converted 'Age' from float64 to object
+2025-06-09 07:45:19,713 - INFO - \u2705 Data loaded to PostgreSQL
+2025-06-09 07:45:19,843 - INFO - \u2705 Row count matches in PostgreSQL
