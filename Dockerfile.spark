@@ -1,0 +1,27 @@
+FROM apache/spark:3.5.0
+
+USER root
+
+RUN apt-get update && \
+    apt-get install -y curl && \
+    rm -rf /var/lib/apt/lists/*
+
+# Verify Python
+RUN python3 --version
+
+# Upgrade pip first
+RUN pip3 install --upgrade pip
+
+# Install Python dependencies
+RUN pip3 install \
+    --no-cache-dir \
+    --default-timeout=1000 \
+    --retries 10 \
+    pyspark==3.5.0 \
+    kafka-python \
+    psycopg2-binary
+
+ENV PYSPARK_PYTHON=/usr/bin/python3
+ENV PYSPARK_DRIVER_PYTHON=/usr/bin/python3
+
+USER spark
